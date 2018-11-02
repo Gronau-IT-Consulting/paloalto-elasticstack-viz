@@ -1,5 +1,5 @@
 {
-  "index-patterns" : "panos-threat-*",
+  "index_patterns" : "panos-threat-*",
   "settings" : {
     "index.refresh_interval" : "5s"
   },
