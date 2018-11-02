@@ -1,6 +1,5 @@
 {
-  "template" : "threat*",
-  "version" : 1,
+  "index-patterns" : "panos-threat-*",
   "settings" : {
     "index.refresh_interval" : "5s"
   },
@@ -139,7 +138,8 @@
                 "type" : "text",
                 "fields" : {
                   "keyword" : {
-                    "type" : "short"
+                    "type" : "keyword",
+                    "ignore_above" : 256
                   }
                 }
               },
