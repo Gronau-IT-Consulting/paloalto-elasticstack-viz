@@ -1,5 +1,5 @@
 {
-  "index_patterns" : "traffic*",
+  "index_patterns" : "panos-traffic-*",
   "settings" : {
     "index.refresh_interval" : "5s"
   },
